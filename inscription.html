@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+</head>
+<body>
+    <p>Remplissez le formulaire ci-dessous pour vous inscrire:</p>
+        <form method="post" action="inscription.php">
+            <input type="text" name="pseudo" placeholder="Votre pseudo..." required> <!--required permet d'empêcher l'envoi du formulaire si le champ est vide -->
+            <input type="password" name="mdp" placeholder="Votre mot de passe..." required>
+            <input type="email" name="mail" placeholder="Votre mail..." required>
+            <input type="submit" name="valider" value="Cliquez ici pour envoyer le formulaire">
+        </form>
+
+        <a href="index.html"> <img class="mb-4" src="img/logo.jpg" alt="logo de Sténotypie style="width=82 height=82 style="margin-left:30%">Retour Accueil</a>
+</body>
+</html>
