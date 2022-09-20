@@ -5,8 +5,7 @@ const quotes = async () => {
     let options = {
      method: 'GET', 
      headers: {
-        'X-RapidAPI-Key': '31c5b37b10msh3838b234811cf59p1265aajsn7b6dcdda16d7',
-    } };
+        'X-RapidAPI-Key': 1s    } };
      let res = await fetch(url, options); 
      if(res.ok){
       let json = await res.json();
